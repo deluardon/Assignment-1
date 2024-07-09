@@ -150,6 +150,36 @@ header > section > div > button {
 
 /* Development section step 3 */
 
-.step-3{
-  /* padding-bottom: 80px; */
+/* .step-3{
+  padding-bottom: 80px;
+} */
+
+/* Development section end */
+
+/* inspiration section style */
+
+.inspiration>div{
+  text-align: center;
 }
+
+.inspiration-video{
+  padding: 24px 0px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.20);
+  margin: auto;
+  margin-top: 32px;
+  width: 600px;
+}
+.inspiration>div>p{
+  margin-top: 24px;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 26px;
+
+}
+.inspiration>div>h1{
+  padding-top: 24px;
+}
+
+/* inspiration section end */
+
