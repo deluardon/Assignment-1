@@ -202,7 +202,7 @@ header > section > div > button {
   opacity: 0.7;
 }
 
-.Current-card-container{
+.Current-card-container {
   width: 1200px;
   margin: auto;
   display: grid;
@@ -210,44 +210,48 @@ header > section > div > button {
   gap: 32px;
   padding: 32px 32px;
 }
-.Current-card{
+.Current-card {
   text-align: left;
   padding: 32px 32px;
   background: rgba(255, 76, 30, 0.05);
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.2);
 }
-.Current-card>h2{
+.Current-card > h2 {
   margin-top: 16px;
 }
-.Current-card>p{
+.Current-card > p {
   margin-top: 24px;
   opacity: 0.7;
   line-height: 26px;
   padding-bottom: 24px;
-
 }
-.Current-card>a{
+.Current-card > a {
   color: #000000;
 }
 
 /* Current section end */
 
-
-
 /* terget section style */
 
-.Target-container{
+.Target-container {
   margin-top: 100px;
   text-align: center;
   margin-bottom: 100px;
 }
+.Target-container>p{
+  padding-top: 24px;
+  color: #000000;
+  opacity: 0.7;
+  line-height: 26px;
+}
 
-.Target-card{
+.Target-card {
   display: flex;
   justify-content: center;
   gap: 32px;
   width: 1200px;
+  align-items: center;
   margin: auto;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
@@ -255,16 +259,15 @@ header > section > div > button {
   margin-top: 48px;
 }
 
-.Target-card-info{
+.Target-card-info {
   text-align: left;
 }
 
-.Target-card-info > h4{
+.Target-card-info > h4 {
   color: rgba(13, 19, 33, 0.7);
-  
 }
 
-.Target-card-info > p{
+.Target-card-info > p {
   color: #0d1321;
   line-height: 26px;
   opacity: 0.7;
@@ -272,6 +275,62 @@ header > section > div > button {
   margin-bottom: 16px;
 }
 
-.Target-card-info >a{
+.Target-card-info > a {
   color: #000000;
+}
+
+/* target section end */
+
+/* Support section style */
+
+.Support-container {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../assets/handshake.jpg");
+  width: 1200px;
+  background-position: center;
+  background-size: cover;
+  margin: 44px auto;
+  border-radius: 10px;
+}
+.Support-container > div {
+  padding: 32px;
+  text-align: center;
+}
+.Support-container > div > h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.Support-container > div > p {
+  color: #fff;
+  padding-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.Support-container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 16px;
+}
+.Support-container > div > div>input{
+  padding: 20px 200px 20px 10px ;
+  border-radius: 10px;
+  border: none;
+}
+.Support-container > div > div>button{
+  padding: 17px 24px;
+  border-radius: 10px;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+
 }
