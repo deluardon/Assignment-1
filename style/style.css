@@ -278,6 +278,12 @@ header > section > div > button {
 .Target-card-info > a {
   color: #000000;
 }
+.Target-card-img>img{
+  width: 100px;
+  margin-right: 20px;
+}
+/* .Target-card-img{
+  /* width: 300px; */
 
 /* target section end */
 
