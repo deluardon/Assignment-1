@@ -239,7 +239,7 @@ header > section > div > button {
   text-align: center;
   margin-bottom: 100px;
 }
-.Target-container>p{
+.Target-container > p {
   padding-top: 24px;
   color: #000000;
   opacity: 0.7;
@@ -320,17 +320,37 @@ header > section > div > button {
   margin-top: 24px;
   gap: 16px;
 }
-.Support-container > div > div>input{
-  padding: 20px 200px 20px 10px ;
+.Support-container > div > div > input {
+  padding: 20px 200px 20px 10px;
   border-radius: 10px;
   border: none;
 }
-.Support-container > div > div>button{
+.Support-container > div > div > button {
   padding: 17px 24px;
   border-radius: 10px;
   border: none;
   color: #000;
   font-weight: bold;
   font-size: 20px;
+}
 
+/* Support section end */
+
+/* footer style */
+
+.footer-container {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-container>div{
+  font-size: 32px;
+}
+footer{
+  background-color: rgb(214, 214, 214);
+  text-align: center;
+  padding: 16px 32px;
 }
