@@ -1,37 +1,155 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* navber section style start */
-body{
-    font-family: "Azeret Mono", monospace;
+body {
+  font-family: "Azeret Mono", monospace;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-    /* border-bottom: 1px solid gray */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 30px;
+  /* border-bottom: 1px solid gray */
 }
-.navbar>ul>li{
-    list-style: none;
+.navbar > ul > li {
+  list-style: none;
 }
-.navbar>ul>li>a{
-    text-decoration: none;
-    color: #0D1321;
-    font-size: 24px;
-    font-weight: 800;
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
 }
-.navbar>ul>li>button{
-    padding: 10px 16px;
-    border-radius: 10px;
-    border: 1px solid #0D1321;
-    color: #0D1321;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
+.navbar > ul > li > button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #0d1321;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 600;
 }
-.navbar>ul>li>button:hover{
-    cursor: pointer;
+.navbar > ul > li > button:hover {
+  cursor: pointer;
+}
+/* navber section style end */
+
+/* banner section style start */
+header > section {
+  background-image: url("../assets/Hero-bg.png");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+header > section > div {
+  text-align: center;
+}
+header > section > div > div > img {
+  padding-top: 26px;
+}
+header > section > div > h1 {
+  font-size: 38px;
+  color: #0d1321;
+  font-weight: 800;
+  padding-top: 32px;
+  line-height: 64px;
+}
+header > section > div > p {
+  line-height: 26px;
+  padding-top: 24px;
+  color: #0d1321;
+  /* text-align: center; */
+}
+header > section > div > button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #0d1321;
+  color: #fff;
+  border: none;
+  margin-top: 24px;
+}
+
+/* banner section style end */
+
+/* The development department has 3 step */
+
+/* Development section start style */
+
+.Development-container {
+  margin-top: 100px;
+  text-align: center;
+  background: rgba(13, 19, 33, 0.02);
+  padding-bottom: 80px;
+}
+.Development-container > h1 {
+  padding-top: 42px;
+}
+.Development-container > p {
+  padding-top: 24px;
+  line-height: 26px;
+}
+
+/* Development section step one style */
+
+.Development-step-one-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin: auto;
+  width: 1000px;
+  margin-top:100px;
+  padding: 24px 0px;
+  border-radius: 16px;
+  background-color :#fff;
+}
+.Development-step-one-info{
+    text-align: left;
+}
+.Development-step-one-info > h4{
+    color: rgba(13, 19, 33, 0.70);
+    line-height: 26px;
+}
+.Development-step-one-info > p{
+  color: #0D1321;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+.Development-step-one-info > button{
+  padding: 12px 20px;
+  margin-top: 32px;
+  border: 1px solid #0D1321;
+  opacity: 0.7;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: 600px;
+}
+.Development-step-one-info > button:hover{
+  cursor: pointer;
+  background-color: #fff;
+}
+.Development-step-one-img > img{
+  height: 200px;
+}
+
+/* Development section step two */
+
+.step-2{
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 32px;
+}
+
+
+/* Development section step 3 */
+
+.step-3{
+  /* padding-bottom: 80px; */
 }
