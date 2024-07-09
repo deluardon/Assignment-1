@@ -2,3 +2,36 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* navber section style start */
+body{
+    font-family: "Azeret Mono", monospace;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    /* border-bottom: 1px solid gray */
+}
+.navbar>ul>li{
+    list-style: none;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+.navbar>ul>li>button{
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid #0D1321;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.navbar>ul>li>button:hover{
+    cursor: pointer;
+}
