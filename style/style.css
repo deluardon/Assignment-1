@@ -104,49 +104,48 @@ header > section > div > button {
   height: 200px;
   margin: auto;
   width: 1000px;
-  margin-top:100px;
+  margin-top: 100px;
   padding: 24px 0px;
   border-radius: 16px;
-  background-color :#fff;
+  background-color: #fff;
 }
-.Development-step-one-info{
-    text-align: left;
+.Development-step-one-info {
+  text-align: left;
 }
-.Development-step-one-info > h4{
-    color: rgba(13, 19, 33, 0.70);
-    line-height: 26px;
+.Development-step-one-info > h4 {
+  color: rgba(13, 19, 33, 0.7);
+  line-height: 26px;
 }
-.Development-step-one-info > p{
-  color: #0D1321;
+.Development-step-one-info > p {
+  color: #0d1321;
   line-height: 26px;
   opacity: 0.7;
   margin-top: 10px;
 }
-.Development-step-one-info > button{
+.Development-step-one-info > button {
   padding: 12px 20px;
   margin-top: 32px;
-  border: 1px solid #0D1321;
+  border: 1px solid #0d1321;
   opacity: 0.7;
   font-size: 20px;
   border-radius: 8px;
   font-weight: 600px;
 }
-.Development-step-one-info > button:hover{
+.Development-step-one-info > button:hover {
   cursor: pointer;
   background-color: #fff;
 }
-.Development-step-one-img > img{
+.Development-step-one-img > img {
   height: 200px;
 }
 
 /* Development section step two */
 
-.step-2{
+.step-2 {
   flex-direction: row-reverse;
   justify-content: center;
   gap: 32px;
 }
-
 
 /* Development section step 3 */
 
@@ -158,28 +157,78 @@ header > section > div > button {
 
 /* inspiration section style */
 
-.inspiration>div{
+.inspiration > div {
   text-align: center;
 }
 
-.inspiration-video{
+.inspiration-video {
   padding: 24px 0px;
   border-radius: 16px;
-  border: 1px solid rgba(13, 19, 33, 0.20);
+  border: 1px solid rgba(13, 19, 33, 0.2);
   margin: auto;
   margin-top: 32px;
   width: 600px;
 }
-.inspiration>div>p{
+.inspiration > div > p {
   margin-top: 24px;
   opacity: 0.7;
   font-size: 16px;
   line-height: 26px;
-
 }
-.inspiration>div>h1{
+.inspiration > div > h1 {
   padding-top: 24px;
 }
 
 /* inspiration section end */
 
+/* Current section style */
+
+.Current {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Current > h1 {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+}
+.Current > p {
+  padding-top: 24px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.Current-card-container{
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 32px 32px;
+}
+.Current-card{
+  text-align: left;
+  padding: 32px 32px;
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+.Current-card>h2{
+  margin-top: 16px;
+}
+.Current-card>p{
+  margin-top: 24px;
+  opacity: 0.7;
+  line-height: 26px;
+  padding-bottom: 24px;
+
+}
+.Current-card>a{
+  color: #000000;
+}
+
+/* Current section end */
