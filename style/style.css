@@ -229,6 +229,15 @@ header > section > div > button {
 .Current-card > a {
   color: #000000;
 }
+.css-card{
+
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-card{
+
+  background: rgba(255, 223, 0, 0.05);
+}
+
 
 /* Current section end */
 
