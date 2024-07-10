@@ -67,7 +67,7 @@ header > section > div > p {
   /* text-align: center; */
 }
 header > section > div > button {
-  padding: 16px 16px;
+  padding: 12px 12px;
   border-radius: 8px;
   background: #0d1321;
   color: #fff;
@@ -339,6 +339,10 @@ header > section > div > button {
   font-weight: bold;
   font-size: 20px;
 }
+.Support-container > div > div > button:hover{
+  cursor: pointer;
+  background-color: gray;
+}
 
 /* Support section end */
 
@@ -360,7 +364,17 @@ footer{
   text-align: center;
   padding: 16px 32px;
 }
+.fa-facebook{
+  color: blue;
+}
+.fa-github{
+  color: black;
+}
+.fa-linkedin{
+  color: blue;
+}
 
+/* problem and mistek style */
 html{
   scroll-behavior: smooth;
 }
